@@ -6,6 +6,10 @@ public class CommandFor {
 
 	public static void main(String[] args) {
 		
+		//FOR PADRAO, FACIL PRA KRL
+		
+		/*
+		
 		Scanner teclado = new Scanner(System.in);
 		
 		int cc;
@@ -30,7 +34,19 @@ public class CommandFor {
 			System.out.println("");
 			System.out.println("Cambalhota " + max);
 			
-		}	
+		}	*/
+		
+		//FOR COMPLICADO PRA KRL
+		
+		for (int i = 0; i <= 3; i++) {
+			
+			for (int j = 0; j <= 2; j+=2) {
+				
+				System.out.printf("%d, %d \n", i, j);
+				
+			}
+			
+		}
 
 	}
 
