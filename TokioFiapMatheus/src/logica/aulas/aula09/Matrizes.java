@@ -1,6 +1,6 @@
 package logica.aulas.aula09;
 
-public class Marizes {
+public class Matrizes {
 
 	public static void main(String[] args) {
 		
