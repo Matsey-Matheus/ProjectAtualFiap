@@ -2,7 +2,7 @@ package logica.exercicios;
 
 import java.util.Scanner;
 
-public class Exercicio6 {
+public class Exercicio1Aula7 {
 
 	public static void main(String[] args) {
 		
