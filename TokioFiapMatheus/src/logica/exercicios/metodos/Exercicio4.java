@@ -1,30 +1,47 @@
 package logica.exercicios.metodos;
 
+import java.util.Scanner;
+
 public class Exercicio4 {
 
 	public static void main(String[] args) {
 		
-		System.out.print("Digite um numero: ");
-
+		Scanner ent = new Scanner(System.in);
+		
+		System.out.print("Digite o primeiro numero: ");
+		int num1 = ent.nextInt();
+		
+		System.out.print("Digite a operação: ");
+		char op = ent.next().charAt(0);
+		
+		System.out.print("Digite o segundo numero: ");
+		int num2 = ent.nextInt();
+		
+		
+		
+		calc(num1, num2, op);
+		
+		ent.close();
+		
 	}
 	
-	static void calc(int num1, int num2, String opr) {
+	static void calc(int num1, int num2, char opr) {
 		
-		if (opr == "+") {
+		if (opr == '+') {
 			
-			System.out.println(num1 + num2);
+			System.out.println("Resultado: " + (num1 + num2));
 			
-		} else if (opr == "-") {
+		} else if (opr == '-') {
 			
-			System.out.println(num1 - num2);
+			System.out.println("Resultado: " + (num1 - num2));
 			
-		} else if (opr == "*") {
+		} else if (opr == '*') {
 			
-			System.out.println(num1 * num2);
+			System.out.println("Resultado: " + (num1 * num2));
 			
-		} else if (opr == "/") {
+		} else if (opr == '/') {
 			
-			System.out.println(num1 / num2);
+			System.out.println("Resultado: " + (num1 / num2));
 			
 		}
 		
